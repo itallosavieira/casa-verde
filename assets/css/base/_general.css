@@ -1,8 +1,15 @@
-/* *** Background *** */
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background: url(../../img/background-texture.png), url(../../img/lines.png);
+    background-image: url(../../img/background-texture.png), url(../../img/lines.png);
     background-position: center;
 
     font-family: var(--font-family__body);
     font-size: var(--font-size__body);
+}
+
+.container {
+    padding: 0 1rem;
 }

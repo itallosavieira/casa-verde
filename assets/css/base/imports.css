@@ -6,17 +6,8 @@
 
 /* *** Components *** */
 @import url(../components/buttons.css);
-/* @import url(../components/);
-@import url(../components/);
-@import url(../components/);
-@import url(../components/);
-@import url(../components/);
-@import url(../components/);
-@import url(../components/); */
+@import url(../components/input.css);
 
-
-/* *** Background *** */
-body {
-    background: url(../../img/background-texture.png), url(../../img/lines.png);
-    background-position: center;
-}
+/* 
+@import url(../components/);
+*/
