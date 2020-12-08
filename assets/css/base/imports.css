@@ -1,1 +1,22 @@
-@import url()
+/* *** Base *** */
+@import url(_reset.css);
+@import url(_variables.css);
+@import url(_general.css);
+
+
+/* *** Components *** */
+@import url(../components/buttons.css);
+/* @import url(../components/);
+@import url(../components/);
+@import url(../components/);
+@import url(../components/);
+@import url(../components/);
+@import url(../components/);
+@import url(../components/); */
+
+
+/* *** Background *** */
+body {
+    background: url(../../img/background-texture.png), url(../../img/lines.png);
+    background-position: center;
+}

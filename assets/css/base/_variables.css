@@ -3,4 +3,7 @@
     --white: #FFFFFF;
     --grey: #909090;
     --black: #202020;
+
+    --font-family__body: 'Montserrat', sans-serif;
+    --font-size__body: 1rem;
 }

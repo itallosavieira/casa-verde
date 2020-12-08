@@ -1,0 +1,8 @@
+/* *** Background *** */
+body {
+    background: url(../../img/background-texture.png), url(../../img/lines.png);
+    background-position: center;
+
+    font-family: var(--font-family__body);
+    font-size: var(--font-size__body);
+}

@@ -2,7 +2,7 @@
     background-color: var(--yellow);
 
     color: var(--white);
-    font-family: 'Montserrat', sans-serif;
+    font-family: inherit;
     font-weight: 700;
     text-align: center;
 
