@@ -6,10 +6,37 @@ body {
     background-image: url(../../img/background-texture.png), url(../../img/lines.png);
     background-position: center;
 
-    font-family: var(--font-family__body);
-    font-size: var(--font-size__body);
+    color: var(--grey);
+    font-family: var(--fontFamily-default);
+    font-size: var(--fontSize-default);
 }
 
 .container {
     padding: 0 1rem;
+}
+
+.title {
+    font-size: var(--fontSize-title);
+}
+
+.title--featured {
+    color: var(--black);
+    font-family: var(--fontFamily-title-featured);
+    font-size: var(--fontSize-title-featured);
+    font-weight: var(--fontWeight-title-featured);
+
+    display: block;
+    margin: .75rem 0;
+}
+
+.align--center {
+    text-align: center;
+}
+
+.align--left {
+    text-align: left;
+}
+
+.text {
+    line-height: 26px;
 }
