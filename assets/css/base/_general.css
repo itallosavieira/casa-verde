@@ -9,6 +9,9 @@ body {
     color: var(--grey);
     font-family: var(--fontFamily-default);
     font-size: var(--fontSize-default);
+
+    max-width: 460px;
+    margin: 0 auto;
 }
 
 .container {
